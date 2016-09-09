@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let n of nameService.getNames()">
+    {{n.name}}
+  </li>
+</ul>
+<app-button></app-button>
+<h2>{{nameService.selected}}</h2>
